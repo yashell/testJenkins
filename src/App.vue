@@ -43,7 +43,7 @@
                         :type="collapsed ? 'menu-unfold' : 'menu-fold'"
                         @click="()=> collapsed = !collapsed"
                 />
-                <div style="float: left">这里是上边</div>
+                <div style="float: left">这里是上边----是个头</div>
             </a-layout-header>
             <a-layout-content
                     :style="{ margin: '24px 16px', padding: '24px', background: '#fff', minHeight: '280px' }"
